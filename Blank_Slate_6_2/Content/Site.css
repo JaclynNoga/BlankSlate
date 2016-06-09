@@ -1,0 +1,73 @@
+﻿body {
+    font-family: Muli;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.navbar-header {
+    float: none;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-collapse.collapse {
+    display: none !important;
+}
+
+.navbar-nav {
+    float: none !important;
+    padding: 5px;
+}
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+        .navbar-nav > li > a {
+            padding: 5px;
+        }
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
+.navbar-left {
+    float: left;
+    margin-left: 15px;
+}
+
+#left-col {
+    background: url('images/whitewash-wood.jpg') no-repeat center;
+    line-height: 600px;
+}
+
+#right-col {
+    background-color: darkgray;
+}
+
+#left-col, #right-col {
+    text-align: center;
+    height: 600px;
+    vertical-align: middle;
+}
+#left-spacer{
+    min-height:150px;
+}
+#right-spacer{
+    min-height: 200px;
+}
+
+#footer {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    text-align: center;
+    vertical-align: central;
+    margin: 0;
+    position: static;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    min-height: 45px;
+}
